@@ -1,6 +1,7 @@
 {
-  "name": "file-upload",
+  "name": "server-smtp",
   "version": "1.0.0",
+  "description": "",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -10,8 +11,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "formidable": "^2.1.1",
-    "ws": "^8.12.0"
-  },
-  "description": ""
+    "nodemailer": "^6.9.1",
+    "smtp-server": "^3.11.0"
+  }
 }
